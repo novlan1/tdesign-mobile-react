@@ -50,6 +50,7 @@ export * from './tag';
 export * from './result';
 export * from './table';
 export * from './empty';
+export * from './list';
 
 /**
  * 消息提醒（7个）

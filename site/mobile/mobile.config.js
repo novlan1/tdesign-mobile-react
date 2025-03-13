@@ -297,5 +297,10 @@ export default {
       name: 'config-provider',
       component: () => import('tdesign-mobile-react/config-provider/_example/index.tsx'),
     },
+    {
+      title: 'List 列表',
+      name: 'list',
+      component: () => import('tdesign-mobile-react/list/_example/index.tsx'),
+    },
   ],
 };
