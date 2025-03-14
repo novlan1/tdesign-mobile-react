@@ -1,6 +1,6 @@
 {
-  "name": "tdesign-pix",
-  "version": "0.12.2",
+  "name": "tdesign-pixui-icons",
+  "version": "0.12.4",
   "description": "TDesign Component for Mobile React",
   "title": "tdesign-mobile-react",
   "main": "cjs/index.js",
@@ -137,7 +137,7 @@
     "prettier": "^3.3.3",
     "prismjs": "^1.25.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react-dom": "^19.0.0",
     "react-router-dom": "^6.2.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.55.0",
