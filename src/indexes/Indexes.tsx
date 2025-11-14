@@ -62,6 +62,7 @@ const Indexes: React.FC<IndexesProps> = (props) => {
   }, [indexList]);
 
   const setAnchorOnScroll = (top: number) => {
+    console.log('setAnchorOnScroll', top);
     let scrollTop = top;
     if (!groupTop.current.length) return;
     const stickyTop = stickyOffset + parentRect.current.top;
@@ -70,6 +71,7 @@ const Indexes: React.FC<IndexesProps> = (props) => {
       (group) => scrollTop >= group.top - group.height && scrollTop <= group.top + group.totalHeight - group.height,
     );
     setActiveSidebar(groupTop.current[0].anchor);
+    console.log('curIndex', curIndex);
     if (curIndex === -1) return;
     const curGroup = groupTop.current[curIndex];
     setActiveSidebar(curGroup.anchor);
